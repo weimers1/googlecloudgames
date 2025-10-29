@@ -1,52 +1,65 @@
-# Build results
-bin/
-obj/
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Visual Studio
-.vs/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
 .vscode/
 
-# Logs
-*.log
+# OS/system files
+.DS_Store
+Thumbs.db
 
-# Temporary files
-*.tmp
-*.temp
+# Environment and secrets
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.keystore
+*.truststore
+
+# Logs and runtime data
+*.log
+logs/
 *.pid
 *.seed
-*.pidb
+hs_err_pid*
+replay_pid*
 
-# Package restore data
-project.lock.json
-project.fragment.lock.json
+# Local dependency caches or IDE metadata
+/.mvn/wrapper/maven-wrapper.properties.bak
+/.mvn/.gradle/
+.gradle/
+out/
 
-# NuGet
-*.nupkg
-*.snupkg
-*.nuspec
-.nuget/
-packages/
-# Uncomment if you use the global packages folder
-# ~/.nuget/
-
-# Rider
-.idea/
-
-# Dotnet tools
-.dotnet-tools/
-
-# Generated files
-Generated_Code/
-
-# Publish output
-/app/publish/
-
-# Docker
-*.dockerfile
-docker-compose.override.yml
+# Build output (in case of custom builds)
+bin/

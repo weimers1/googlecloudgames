@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RepoApplication<repo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org._hourgames.repo.RepoApplication",
+            "projectName": "repo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

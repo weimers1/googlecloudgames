@@ -1,4 +1,3 @@
-# googlecloudgames
-A small open-source games web app hosted via Google Cloud Platform.
+# 24hourgames
 
-This is a demo project, not affiliated with Google.
+A small open-source games web app hosted via AWS.
